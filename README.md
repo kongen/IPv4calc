@@ -14,14 +14,14 @@ platforms (no promises!). `cmake` has good support for cross-compiling.
 it is fairly slow & complicated.
 
 ## Building using CMake
-mkdir build
-cd build
-cmake ..
-make && make install
+    mkdir build
+    cd build
+    cmake ..
+    make && make install
 
 ## Building using automake
-./autogen.sh
-mkdir build
-cd build
-../configure --prefix=/usr
-make && make install
+    ./autogen.sh
+    mkdir build
+    cd build
+    ../configure --prefix=/usr
+    make && make install
