@@ -17,11 +17,11 @@ it is fairly slow & complicated.
     mkdir build
     cd build
     cmake ..
-    make && make install
+    make && sudo make install
 
 ## Building using automake
     ./autogen.sh
     mkdir build
     cd build
     ../configure --prefix=/usr
-    make && make install
+    make && sudo make install
