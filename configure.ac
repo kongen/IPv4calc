@@ -16,8 +16,6 @@ AC_CONFIG_MACRO_DIR([m4])
 AC_CHECK_FUNCS([inet_ntoa])
 AC_CHECK_HEADERS([arpa/inet.h])
 
-AX_CXX_COMPILE_STDCXX_14([noext],[mandatory])
-
 AC_CONFIG_FILES([
  Makefile
  src/Makefile
